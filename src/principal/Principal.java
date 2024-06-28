@@ -1,5 +1,6 @@
 package principal;
 
+import adapter.AppAdapter;
 import builder.AppBuilder;
 import factory.AppFactory;
 import singleton.AppSingleton;
@@ -10,7 +11,8 @@ public class Principal {
 		
 	//	AppFactory.doFactory();
 	//	AppSingleton.doSingleton();
-		AppBuilder.doBuilder();
+	//	AppBuilder.doBuilder();
+		AppAdapter.doAdapter();
 		
 
 	}
