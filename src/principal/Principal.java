@@ -2,6 +2,7 @@ package principal;
 
 import adapter.AppAdapter;
 import builder.AppBuilder;
+import decorator.AppDecorator;
 import factory.AppFactory;
 import singleton.AppSingleton;
 
@@ -12,8 +13,8 @@ public class Principal {
 	//	AppFactory.doFactory();
 	//	AppSingleton.doSingleton();
 	//	AppBuilder.doBuilder();
-		AppAdapter.doAdapter();
-		
+	//	AppAdapter.doAdapter();
+		AppDecorator.doDecorator();
 
 	}
 
