@@ -7,6 +7,7 @@ import decorator.AppDecorator;
 import factory.AppFactory;
 import observer.AppObserver;
 import singleton.AppSingleton;
+import template.AppTemplate;
 
 public class Principal {
 
@@ -18,7 +19,8 @@ public class Principal {
 	//	AppAdapter.doAdapter()
 	//	AppDecorator.doDecorator();
 	//	AppCommand.doCommand();
-		AppObserver.doObserver();
+	//	AppObserver.doObserver();
+		AppTemplate.doTemplate();
 
 	}
 
