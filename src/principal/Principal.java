@@ -5,6 +5,7 @@ import builder.AppBuilder;
 import command.AppCommand;
 import decorator.AppDecorator;
 import factory.AppFactory;
+import observer.AppObserver;
 import singleton.AppSingleton;
 
 public class Principal {
@@ -16,7 +17,8 @@ public class Principal {
 	//	AppBuilder.doBuilder();
 	//	AppAdapter.doAdapter()
 	//	AppDecorator.doDecorator();
-		AppCommand.doCommand();
+	//	AppCommand.doCommand();
+		AppObserver.doObserver();
 
 	}
 
